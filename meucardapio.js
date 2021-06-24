@@ -1,5 +1,5 @@
 function Restaurante(nome,cardapio){
-    this.nome = nome,
+    this.nome = nome
     this.cardapio = cardapio
     this.entrada = function() {
       console.log('Bem vindo ao ' + this.nome +' Aqui esta nosso cardapio ' + this.cardapio)
